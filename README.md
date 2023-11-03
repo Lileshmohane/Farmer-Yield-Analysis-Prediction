@@ -1,14 +1,11 @@
-# TRINIT_594092-UX631VF7_ML
-TRINIT_ML03
+# Farmer Yield Analysis & Prediction
 
-## Team Number - 594092-UX631VF7
-## Team Members - Akhil Chenna, Aditya Modi, Shubh Sharma
+## Team Members - Priyanshu Patel, Chandrabhan Behtwar, lilesh Mohane
 
 Main Objective - Given the dataset, predict what crop would be best for the farmer to grow based on the GEOLOCATION, SEASON, and PRICE.
 
-Google Drive Link to VIDEO EXPLANATION - https://drive.google.com/file/d/1tHkOQSd3P-TIHfLueVGyJGJZmaMVMk24/view?usp=sharing
 
-Google Drive Link to PRESENTATION - https://docs.google.com/presentation/d/19OneX9NSUs14RbZ8MxDkDoStTZC8UFQd/edit?usp=sharing&ouid=101257776169293568033&rtpof=true&sd=true
+Google Drive Link to PRESENTATION - https://drive.google.com/file/d/1LpEpS8UwJEYW2oEzXKBKVCIRTFizKX4h/view?usp=drive_link
 
 Given references and datasets are - 
 1) Rainfall in India
