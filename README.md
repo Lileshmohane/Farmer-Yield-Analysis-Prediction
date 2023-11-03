@@ -1,6 +1,6 @@
 # Farmer Yield Analysis & Prediction
 
-## Team Members - Priyanshu Patel, Chandrabhan Behtwar, lilesh Mohane
+## Team Members - Priyanshu Patel, Chandrabhan, Lilesh, Siddharth Gautam
 
 Main Objective - Given the dataset, predict what crop would be best for the farmer to grow based on the GEOLOCATION, SEASON, and PRICE.
 
@@ -17,18 +17,18 @@ Given references and datasets are -
 Data preprocessing becomes one of the most important steps since there is no proper correlation between the datasets.
 Code available in Data_Processing_district_wise_weather_data.ipynb file.
 
-Data preprocessing steps done -
+**Data preprocessing steps done** -
 1) Weather Data Indian Cities - Combined datasets of the given Indian cities into a single dataset that includes average value of tavg, tmin, tmax for each month from year 2018 to 2022 (5 years).
 2) Transposed Rainfall in India dataset to put months row wise instead of column wise, similar to the previous dataset. Done in order to combimne rainfall parameter of the cities.
 3) Created a new dataset on own that includes soil type, Ph level, Nitrogen, Phosphorus, Potassium ratios of soil of each of the cities (referred given map as well). Done in order to correlate with crops given in crop recommendation dataset.
 4) Finally, we combined all the datasets into a single one upon which our models were trained. The dataset includes Month, tavg, tmin, tmax, prcp, city, State, Rainfall, Soil Type, Ph level, Nitrogen, Phosphorous, Potassium.
 
-We created two models, one based on Machine Learning - K Nearest Neighbors, and another based on Deep Learning - Artificial Neural Networks.
+**We created two models**, one based on Machine Learning - **K Nearest Neighbors**, and another based on Deep Learning - **Artificial Neural Networks.**
 Code in model_training.ipynb file.
 
 The deep learning model gave us a main crop that should be grown based on user input, and K - NN gave us some other alternative crops that can be grown along with the main crop.
 
-ANN model architecture - 
+*ANN model architecture* - 
 1) Model made using Tensorflow.
 2) First hidden layer neuron units - 32, activation = relu.
 3) Second hidden layer neuron units - 128, activation = relu.
@@ -38,7 +38,7 @@ ANN model architecture -
 
 We get an accuracy of around 98 percent during training.
 
-KNN model architecture - 
+*KNN model architecture* - 
 1) Model made using sklearn.
 2) No. of neighbors = 100.
 3) Weights = uniform, algorithm = auto, metrics = minkowski.
@@ -46,7 +46,7 @@ KNN model architecture -
 Output predicted by ANN and KNN is the same i.e. the main crop.
 
 We have created a front end user friendly interface for the user to interact with our models.
-We have done it using streamlit framework of Python. A framework used to build and share data apps.
+We have done it using **streamlit framework** of Python. A framework used to build and share data apps.
 Code in app.py file.
 
 The user inputs Location, Start month, End month (which constitute season together). The model then outputs the main crop, other alternative crops, price of each of the crops, Nitrogen Phosphorous Potassium rations of soil required.
